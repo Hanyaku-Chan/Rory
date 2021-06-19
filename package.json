@@ -1,0 +1,14 @@
+{
+  "name": "rory",
+  "version": "1.0.0",
+  "description": "A Open-Source Discord Bot made by Hanyaku#1444",
+  "main": "rory.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hanyaku",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
