@@ -1,11 +1,12 @@
 let configuration = {
+  "debug": false,
   "bot": {
     "use": true, // True = Start the bot ;; False = Don't start the bot
     "ownerID": "219191061199847424", // This should be your own ID. This will be required for you to use the SUDO command.
     "name": "Rory Mercury", // Name of the bot. This will be used in some commands.
     "prefix": "r.", // The bot reacts to messages starting with the Prefix. Basically the "!" of the Mee6 bot.
     "token": "tH1s.T0k3N.i5_A.3x4mPl3",
-    "fileServerDiscordID": "" // Channel ID of the Server-linked Channel Discord Server. Required for File Uploads to the File Server.
+    "fileServerDiscordID": "835903789235961857" // Channel ID of the Server-linked Channel Discord Server. Required for File Uploads to the File Server.
   },
   "fileServer": {
     "use": true, // True = Start the server ;; False = Don't start the server
