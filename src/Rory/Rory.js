@@ -7,7 +7,7 @@ require("./Events/Handler")(client);
 module.exports.startBot = async () => {
   if(config.token === "tH1s.T0k3N.i5_A.3x4mPl3"){
     console.log("[Bot] Please edit the Token in the ./src/Utils/Config.js file to use the Bot.");
-    process.exit();
+    process.exit(); 
   }
   try{
     client.login(config.token);
